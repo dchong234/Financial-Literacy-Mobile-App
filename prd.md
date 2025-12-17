@@ -7,16 +7,16 @@
 **Platform:** Mobile App (iOS/Android)
 
 ## 2. Problem Statement & Design Question
-**Core Question:** How can we help financially illiterate adults track their finances and make good investments to prepare them for long-term financial success?
+**Core Question:** How can we help financially illiterate adults effectively allocate their disposable income across various growth mediums (Roth IRA, stocks, savings, etc.) and guide them in setting up the right financial accounts for their future?
 
 *Note: This question serves as the initial guide and may be refined based on insights gathered during the UX Research phase.*
 
 ## 3. Goals & Objectives
 *   **Primary Goal:** Develop a functional mobile application prototype that addresses the core design question.
 *   **Key Objectives:**
-    *   Understand the specific pain points of the target audience regarding financial tracking and investment.
+    *   Understand the specific pain points of the target audience regarding investment vehicles and asset allocation.
     *   Design an intuitive, accessible user interface suitable for users with low financial literacy.
-    *   Implement core features for tracking finances and providing investment guidance.
+    *   Implement features for tracking asset allocation and providing personalized account recommendations based on user demographics (age, income).
 
 ## 4. Target Audience
 *   **Primary:** Adults with limited financial literacy.
@@ -34,7 +34,7 @@
     *   Competitor analysis.
     *   User interviews/surveys to understand pain points.
     *   Refining the design question.
-    *   **[NEW] AI Feasibility Research:** Investigate AI models for investment advice and data privacy constraints.
+    *   **[NEW] AI Feasibility Research:** Investigate AI models for personalized investment recommendations (rules-based vs. ML) and data privacy.
 *   **Deliverables:** User Personas, Research Insights Report, AI Technical Strategy.
 
 ### Phase 2: UX Design (Days 5-9)
@@ -52,7 +52,7 @@
     *   Setting up the development environment.
     *   Building the frontend UI based on designs.
     *   Implementing logic for tracking and investment features.
-    *   **[NEW] AI Integration:** Train/Integrate AI model for investment suggestions.
+    *   **[NEW] AI Integration:** Train/Integrate AI model for personalized account and allocation suggestions.
 *   **Deliverables:** Functional App Build (Alpha) with AI features.
 
 ### Phase 4: Mobile App Implementation & Polish (Days 18-21)
@@ -65,10 +65,10 @@
 
 ## 7. Functional Requirements (MVP)
 *   **Onboarding:** Simple, jargon-free introduction to the app.
-*   **Expense Tracking:** Easy manual entry or bank linking (simulated if necessary) to track spending.
-*   **Educational Content:** Bite-sized tips or guides on investment basics.
-*   **AI Investment Advisor:** AI-driven suggestions on where to invest available funds based on user profile.
-*   **Dashboard:** Visual summary of financial health.
+*   **Asset Allocation Tracking:** Track distribution of funds across different mediums (Cash, Savings, Stocks, Roth IRA, etc.) rather than granular daily expenses.
+*   **Account Setup Guidance:** Step-by-step resources and guides to help users open necessary accounts (e.g., "How to open a Roth IRA").
+*   **Smart Recommendations:** Logic/AI to recommend specific account types and allocation strategies based on user inputs (Age, Income, Risk Tolerance).
+*   **Dashboard:** Visual summary of current asset distribution vs. recommended goals.
 
 ## 8. Success Metrics
 *   Completion of all 4 phases within the 3-week timeline.
