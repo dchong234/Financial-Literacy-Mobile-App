@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Financial Literacy App",
+    "slug": "financial-literacy-app",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": null,
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0F172A"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0F172A"
+      }
+    }
+  }
+}
+
